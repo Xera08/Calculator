@@ -5,7 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/white">
 
     <TextView
         android:layout_width="match_parent"
@@ -299,8 +300,8 @@
                 android:layout_height="72dp"
                 app:cornerRadius="36dp"
                 style="@style/Widget.Design.FloatingActionButton"
-                android:text="AC"
-                android:textSize="18sp"
+                android:text="⌫"
+                android:textSize="22sp"
                 android:textColor="@color/white"
                 app:backgroundTint="#F71100"
                 android:id="@+id/button_ac"

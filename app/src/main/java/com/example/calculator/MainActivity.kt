@@ -1,6 +1,8 @@
 package com.example.calculator
 
 import android.os.Bundle
+import android.view.View
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -22,4 +24,12 @@ class MainActivity : AppCompatActivity() {
             insets
         }
     }
+
+    fun allClearAction(view: View) {
+        val workingsTV : TextView = findViewById(R.id.workings_textview)
+        val resultTV : TextView = findViewById(R.id.result_textview)
+        workingsTV.text = "0"
+        resultTV.text = "0"
+    }
+
 }
