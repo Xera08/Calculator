@@ -102,6 +102,7 @@
                 app:backgroundTint="#9C27B0"
                 android:id="@+id/button_divide"
                 android:layout_margin="12dp"
+                android:onClick="operatorAction"
                 />
         </LinearLayout>
 
@@ -123,6 +124,7 @@
                 app:backgroundTint="#3F51B5"
                 android:id="@+id/button_7"
                 android:layout_margin="12dp"
+                android:onClick="numberAction"
                 />
             <!-- Button '8'   -->
             <com.google.android.material.button.MaterialButton
@@ -136,7 +138,7 @@
                 app:backgroundTint="#3F51B5"
                 android:id="@+id/button_8"
                 android:layout_margin="12dp"
-
+                android:onClick="numberAction"
                 />
             <!-- Button '9'  -->
             <com.google.android.material.button.MaterialButton
@@ -150,6 +152,7 @@
                 app:backgroundTint="#3F51B5"
                 android:id="@+id/button_9"
                 android:layout_margin="12dp"
+                android:onClick="numberAction"
                 />
             <!-- Button '*'  -->
             <com.google.android.material.button.MaterialButton
@@ -163,6 +166,8 @@
                 app:backgroundTint="#9C27B0"
                 android:id="@+id/button_multiply"
                 android:layout_margin="12dp"
+                android:onClick="operatorAction"
+
                 />
         </LinearLayout>
 
@@ -184,6 +189,7 @@
                 app:backgroundTint="#3F51B5"
                 android:id="@+id/button_4"
                 android:layout_margin="12dp"
+                android:onClick="numberAction"
                 />
             <!-- Button '5'   -->
             <com.google.android.material.button.MaterialButton
@@ -197,7 +203,7 @@
                 app:backgroundTint="#3F51B5"
                 android:id="@+id/button_5"
                 android:layout_margin="12dp"
-
+                android:onClick="numberAction"
                 />
             <!-- Button '6'  -->
             <com.google.android.material.button.MaterialButton
@@ -211,6 +217,7 @@
                 app:backgroundTint="#3F51B5"
                 android:id="@+id/button_6"
                 android:layout_margin="12dp"
+                android:onClick="numberAction"
                 />
             <!-- Button '-'  -->
             <com.google.android.material.button.MaterialButton
@@ -224,6 +231,8 @@
                 app:backgroundTint="#9C27B0"
                 android:id="@+id/button_subtract"
                 android:layout_margin="12dp"
+                android:onClick="operatorAction"
+
                 />
         </LinearLayout>
 
@@ -245,6 +254,7 @@
                 app:backgroundTint="#3F51B5"
                 android:id="@+id/button_1"
                 android:layout_margin="12dp"
+                android:onClick="numberAction"
                 />
             <!-- Button '2'   -->
             <com.google.android.material.button.MaterialButton
@@ -258,7 +268,7 @@
                 app:backgroundTint="#3F51B5"
                 android:id="@+id/button_2"
                 android:layout_margin="12dp"
-
+                android:onClick="numberAction"
                 />
             <!-- Button '3'  -->
             <com.google.android.material.button.MaterialButton
@@ -272,6 +282,7 @@
                 app:backgroundTint="#3F51B5"
                 android:id="@+id/button_3"
                 android:layout_margin="12dp"
+                android:onClick="numberAction"
                 />
             <!-- Button '+'  -->
             <com.google.android.material.button.MaterialButton
@@ -306,6 +317,7 @@
                 app:backgroundTint="#F71100"
                 android:id="@+id/button_ac"
                 android:layout_margin="12dp"
+                android:onClick="backspaceAction"
                 />
             <!-- Button '0'   -->
             <com.google.android.material.button.MaterialButton
@@ -319,7 +331,7 @@
                 app:backgroundTint="#3F51B5"
                 android:id="@+id/button_0"
                 android:layout_margin="12dp"
-
+                android:onClick="numberAction"
                 />
             <!-- Button '.'  -->
             <com.google.android.material.button.MaterialButton
