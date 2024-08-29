@@ -62,6 +62,7 @@
                 app:backgroundTint="#F71100"
                 android:id="@+id/button_c"
                 android:layout_margin="12dp"
+                android:onClick="allClearAction"
                 />
             <!-- Button '('   -->
             <com.google.android.material.button.MaterialButton
@@ -296,6 +297,7 @@
                 app:backgroundTint="#9C27B0"
                 android:id="@+id/button_add"
                 android:layout_margin="12dp"
+                android:onClick="operatorAction"
                 />
         </LinearLayout>
 
