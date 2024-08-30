@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/workings_textview"
-        android:text="0"
+        android:text=""
         android:textSize="64sp"
         android:textAlignment="textEnd"
         android:textColor="@color/black"
@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/result_textview"
-        android:text="0"
+        android:text=""
         android:textSize="64sp"
         android:textAlignment="textEnd"
         android:textColor="@color/black"
@@ -360,6 +360,7 @@
                 app:backgroundTint="#4CAF50"
                 android:id="@+id/button_equals"
                 android:layout_margin="12dp"
+                android:onClick="equalsAction"
                 />
         </LinearLayout>
     </LinearLayout>
